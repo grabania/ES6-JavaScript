@@ -109,3 +109,13 @@ const color = gemstone.color;
 const carat = gemstone.carat;
 
 console.log(type, color, carat);
+
+/*
+ * Destructuring values from an array
+ */
+
+const dots = [ 10, 25, -34 ];
+
+const [ a, b, c ] = dots;
+
+console.log(a, b, c);
