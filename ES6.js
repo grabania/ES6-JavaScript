@@ -93,3 +93,19 @@ const y = point[1];
 const z = point[2];
 
 console.log(x, y, z);
+
+/*
+ * Extracting values from an object
+ */
+
+const gemstone = {
+	type: 'quartz',
+	color: 'rose',
+	carat: 21.29
+};
+
+const type = gemstone.type;
+const color = gemstone.color;
+const carat = gemstone.carat;
+
+console.log(type, color, carat);
