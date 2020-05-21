@@ -119,3 +119,17 @@ const dots = [ 10, 25, -34 ];
 const [ a, b, c ] = dots;
 
 console.log(a, b, c);
+
+/*
+ * Destructuring values from an object
+ */
+
+const something = {
+	brand: 'abcdef',
+	location: 'nowhere',
+	size: 22
+};
+
+const { brand, location, size } = something;
+
+console.log(brand, location, size);
