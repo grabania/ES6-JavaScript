@@ -83,7 +83,7 @@ function createAnimalTradingCardHTML(animal) {
 console.log(createAnimalTradingCardHTML(cheetah));
 
 /*
- * Extract data from arrays and objects into distinct variables using destructuring.
+ * Extract data from arrays and objects into distinct variables.
  */
 
 const point = [ 10, 25, -34 ];
