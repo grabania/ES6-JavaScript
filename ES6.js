@@ -163,3 +163,27 @@ const colors = `List of Colors
 3. ${three}`;
 
 console.log(colors);
+
+//Object literal shorthand:
+// let type1 = 'quartz';
+// let color1 = 'rose';
+// let carat1 = 21.29;
+
+// const gemstone1 = {
+// 	type1: type,
+// 	color1: color,
+// 	carat1: carat
+// };
+
+// console.log(gemstone1);
+
+let type1 = 'quartz';
+let color1 = 'rose';
+let carat1 = 21.29;
+
+const gemstone1 = {
+	type1,
+	color1,
+	carat1
+};
+console.log(gemstone1);
