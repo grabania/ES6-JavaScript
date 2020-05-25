@@ -187,3 +187,30 @@ const gemstone1 = {
 	carat1
 };
 console.log(gemstone1);
+
+//Shorthand way to add methods to objects
+// let type2 = 'quartz';
+// let color2 = 'rose';
+// let carat2 = 21.29;
+
+// const gemstone2 = {
+// 	type2,
+// 	color2,
+// 	carat2,
+// 	calculateWorth: function() {
+// 		// will calculate worth of gemstone based on type, color, and carat
+// 	}
+// };
+
+// Shorthand method names:
+let type2 = 'quartz';
+let color2 = 'rose';
+let carat2 = 21.29;
+
+const gemstone2 = {
+	type2,
+	color2,
+	carat2,
+	calculateWorth() {}
+};
+console.log(gemstone2);
