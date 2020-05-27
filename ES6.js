@@ -223,3 +223,11 @@ const digits = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
 for (let i = 0; i < digits.length; i++) {
 	console.log(digits[i]);
 }
+
+//The For...in Loop (not recommened)
+
+// const digits = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
+
+// for (const index in digits) {
+// 	console.log(digits[index]);
+// }
