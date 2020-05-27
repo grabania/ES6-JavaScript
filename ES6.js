@@ -250,3 +250,14 @@ for (figure of figures) {
 	}
 	console.log(figure);
 }
+
+/*
+ * Programming Quiz: Writing a For...of Loop
+ */
+
+const days = [ 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday' ];
+
+for (const day of days) {
+	var upperDay = day.charAt(0).toUpperCase() + day.slice(1);
+	console.log(upperDay);
+}
