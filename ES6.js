@@ -239,3 +239,14 @@ const numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
 for (number of numbers) {
 	console.log(number);
 }
+
+// In For...of Loop you can stop or break a for...of loop at anytime
+
+const figures = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
+
+for (figure of figures) {
+	if (figure % 2 === 0) {
+		continue;
+	}
+	console.log(figure);
+}
