@@ -269,3 +269,12 @@ console.log(...books);
 
 const primes = new Set([ 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 ]);
 console.log(...primes);
+
+//Combining arrays with concat(prior to the spread operator)
+
+const fruits = [ 'apples', 'bananas', 'pears' ];
+const vegetables = [ 'corn', 'potatoes', 'carrots' ];
+
+const produce = fruits.concat(vegetables);
+
+console.log(produce);
