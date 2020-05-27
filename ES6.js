@@ -278,3 +278,14 @@ const vegetables = [ 'corn', 'potatoes', 'carrots' ];
 const produce = fruits.concat(vegetables);
 
 console.log(produce);
+
+/*
+ * Instructions: Use the spread operator to combine the `fru` and `veg` arrays into the `produce` array.(ES6)
+ */
+
+const fru = [ 'apples', 'bananas', 'pears' ];
+const veg = [ 'corn', 'potatoes', 'carrots' ];
+
+const mix = [ ...fru, ...veg ];
+
+console.log(mix);
