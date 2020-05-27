@@ -231,3 +231,11 @@ for (let i = 0; i < digits.length; i++) {
 // for (const index in digits) {
 // 	console.log(digits[index]);
 // }
+
+//The For...of Loop (ES6. The most concise version of all the for loops)
+
+const numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
+
+for (number of numbers) {
+	console.log(number);
+}
