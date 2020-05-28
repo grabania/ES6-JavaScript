@@ -295,3 +295,16 @@ console.log(mix);
 const order = [ 20.17, 18.67, 1.5, 'cheese', 'eggs', 'milk', 'bread' ];
 const [ total, subtotal, tax, ...items ] = order;
 console.log(total, subtotal, tax, items);
+
+//Rest parameter vs spread operator
+//Spread operator:
+const myPackage = [ 'cheese', 'eggs', 'milk', 'bread' ];
+console.log(...myPackage);
+
+//Rest parameter
+printPackageContent('cheese', 'eggs', 'milk', 'bread');
+function printPackageContent(...items) {
+	for (const item of items) {
+		console.log(item);
+	}
+}
