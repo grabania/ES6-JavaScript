@@ -327,3 +327,24 @@ function sum(...nums) {
 	}
 	return total;
 }
+
+/*
+ * Programming Quiz: Using the Rest Parameter
+ */
+
+function average(...nums) {
+	let total = 0;
+	for (const num of nums) {
+		total += num;
+	}
+	if (average.arguments.length > 0) {
+		return total / average.arguments.length;
+	} else {
+		return 0;
+	}
+}
+
+console.log(average(2, 6));
+console.log(average(2, 3, 3, 5, 7, 10));
+console.log(average(7, 1432, 12, 13, 100));
+console.log(average());
