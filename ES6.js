@@ -308,3 +308,13 @@ function printPackageContent(...items) {
 		console.log(item);
 	}
 }
+
+//Using the arguments object vs using the rest parameter
+//The arguments object:
+function sum() {
+	let total = 0;
+	for (const argument of arguments) {
+		total += argument;
+	}
+	return total;
+}
