@@ -387,3 +387,7 @@ console.log(longNames);
 const greet = (name) => `Hello ${name}!`;
 
 console.log(greet('Steve'));
+
+// empty parameter list requires parentheses:
+const sayHi = () => console.log('Hello friends');
+sayHi();
