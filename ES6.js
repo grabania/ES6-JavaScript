@@ -391,3 +391,7 @@ console.log(greet('Steve'));
 // empty parameter list requires parentheses:
 const sayHi = () => console.log('Hello friends');
 sayHi();
+
+// multiple parameters requires parentheses
+const orderIceCream = (flavor, cone) => console.log(`Here's your ${flavor} ice cream in a ${cone} cone.`);
+orderIceCream('chocolate', 'waffle');
