@@ -348,3 +348,11 @@ console.log(average(2, 6));
 console.log(average(2, 3, 3, 5, 7, 10));
 console.log(average(7, 1432, 12, 13, 100));
 console.log(average());
+
+//Arrow functions
+//Convert a function to an arrow function:
+//const upperizedNames = ['Farrin', 'Kagure', 'Asser'].map(function(name) {
+//return name.toUpperCase();
+//});
+
+const upperizedNames = [ 'Farrin', 'Kagure', 'Asser' ].map((name) => name.toUpperCase());
