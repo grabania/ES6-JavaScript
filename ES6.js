@@ -382,3 +382,8 @@ const names = [
 const longNames = names.filter((name) => name.length > 6);
 
 console.log(longNames);
+
+//An arrow function is stored in a variable:
+const greet = (name) => `Hello ${name}!`;
+
+console.log(greet('Steve'));
