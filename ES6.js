@@ -392,6 +392,14 @@ console.log(greet('Steve'));
 const sayHi = () => console.log('Hello friends');
 sayHi();
 
-// multiple parameters requires parentheses
+// multiple parameters requires parentheses:
 const orderIceCream = (flavor, cone) => console.log(`Here's your ${flavor} ice cream in a ${cone} cone.`);
 orderIceCream('chocolate', 'waffle');
+
+//block body syntax:
+const firstCapitalLetter = [ 'Allison', 'Lucy', 'Ted', 'Mary' ].map((firstName) => {
+	firstName = firstName.toUpperCase();
+	return `${firstName} has ${firstName.length} characters in their name`;
+});
+
+console.log(firstCapitalLetter);
