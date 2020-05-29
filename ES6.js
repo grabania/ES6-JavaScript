@@ -403,3 +403,16 @@ const firstCapitalLetter = [ 'Allison', 'Lucy', 'Ted', 'Mary' ].map((firstName) 
 });
 
 console.log(firstCapitalLetter);
+
+/*
+ * Programming Quiz: Convert Function into an Arrow Function
+ */
+
+// convert to an arrow function:
+// const squares = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ].map(function(square) {
+// 	return square * square;
+// });
+
+const squares = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ].map((square) => square * square);
+
+console.log(...squares);
